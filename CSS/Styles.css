@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+/* Chicken cards section */
+.chicken-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Individual chicken card */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .card-content {
+    padding: 1rem;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+}
+
+.card p {
+    margin: 0.5rem 0;
+}
+
+/* Button styles */
+.card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+}
+
+.card button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (min-width: 900px) {
+    .card {
+        width: 30%;
+    }
+}
+
+/* Chicken info section */
+.chicken-info {
+    margin-top: 1rem;
+}
+
+.chicken-info img {
+    width: 100%;
+    height: auto;
+}
+
+/* Order form section */
+#order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+#order-form input,
+#order-form button {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#order-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#order-form button:hover {
+    background-color: #45a049;
+}
+
+/* Order summary section */
+.order-summary {
+    margin-top: 1rem;
+}

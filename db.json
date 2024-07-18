@@ -1,0 +1,94 @@
+{
+    "species": [
+        {
+            "name": "Broiler",
+            "image_small": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRckLQ1iGSgW5mTviDvze_OmevXvtWcyrMtTw&s",
+            "image_big": "https://courses.udyami.org.in/public//uploads/media_manager/53.jpg",
+            "description": "Fast-growing breed suitable for meat production.",
+            "price": 350,
+            "price_small": 200,
+            "price_big": 400
+        },
+        {
+            "name": "Layers",
+            "image_small": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIQbhCb-T3-Rt6x2tdEPsWpragduwAVi646Q&s",
+            "image_big": "https://i0.wp.com/farmhatch.co.ke/wp-content/uploads/2023/03/Types-of-poultry-farming-in-nigeria-1.png?resize=780%2C443&ssl=1",
+            "description": "Breed known for egg production.",
+            "price": 300,
+            "price_small": 180,
+            "price_big": 350
+        },
+        {
+            "name": "Kienyeji",
+            "image_small": "https://static.wixstatic.com/media/eec3b0_d58bb3cd3f8644ea90567e5437325e27~mv2.jpg/v1/fill/w_520,h_347,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/eec3b0_d58bb3cd3f8644ea90567e5437325e27~mv2.jpg",
+            "image_big": "https://afriagrimagazine.com/wp-content/uploads/2022/03/Kienyeji-chicken-feeding-in-the-range-1024x668-1-960x626.jpg",
+            "description": "Indigenous breed, popular in local markets.",
+            "price": 250,
+            "price_small": 150,
+            "price_big": 300
+        },
+        {
+            "name": "Silkie",
+            "image_small": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMh9DFWMAjvguVZDhhW3kDDIVkPy-k4zQ6B0qxQXZaum6wwJcv-g5BelyC--EPa7jPjw&usqp=CAU",
+            "image_big": "https://silkiechickenexperts.com/cdn/shop/articles/Silkie_Chicken_Expert_Article_Images_6_600x.jpg?v=1604635396",
+            "description": "Fluffy feathers, used for ornamental purposes.",
+            "price": 400,
+            "price_small": 250,
+            "price_big": 450
+        },
+        {
+            "name": "Sussex",
+            "image_small": "https://i.pinimg.com/originals/cd/52/af/cd52afa84d43069ef7245087c49ab304.jpg",
+            "image_big": "https://poultrykeeper.com/wp-content/uploads/2014/10/Light-Sussex-Growers-2014.jpg",
+            "description": "Dual-purpose breed, good for meat and eggs.",
+            "price": 320,
+            "price_small": 190,
+            "price_big": 370
+        },
+        {
+            "name": "Orpington",
+            "image_small": "https://i.ytimg.com/vi/nKGG69CwOsw/maxresdefault.jpg",
+            "image_big": "https://i.ytimg.com/vi/RsoKlQ56rlc/hqdefault.jpg",
+            "description": "Large, friendly breed, good for meat and eggs.",
+            "price": 380,
+            "price_small": 220,
+            "price_big": 400
+        },
+        {
+            "name": "Rhode Island Red",
+            "image_small": "https://5.imimg.com/data5/ANDROID/Default/2022/12/SU/NL/LK/160273086/product-jpeg.jpg",
+            "image_big": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdBRo7aOwU9k1iu5DYHHZhicj9LeCvOXcYsN_pLSVQtwdmI3ojcyhODsqQmUmbAq90OT0&usqp=CAU",
+            "description": "Hardy breed, known for good egg production.",
+            "price": 290,
+            "price_small": 170,
+            "price_big": 320
+        },
+        {
+            "name": "Araucana",
+            "image_small": "https://cdn.pixabay.com/photo/2019/11/06/15/52/araucana-4606494_1280.jpg",
+            "image_big": "https://gilmoresinc.com/wp-content/uploads/2022/09/Araucana-Chicken-1024x1024.jpg",
+            "description": "South American breed, known for blue-green eggs.",
+            "price": 360,
+            "price_small": 210,
+            "price_big": 380
+        },
+        {
+            "name": "Plymouth Rock",
+            "image_small": "https://c8.alamy.com/comp/2HXADJY/barred-plymouth-rock-chickens-isolated-on-white-background-2HXADJY.jpg",
+            "image_big": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPsUpfFkn-llytmXfoxDZpJeYIGhrCfQUgsg&s",
+            "description": "Dual-purpose breed, good for meat and eggs.",
+            "price": 330,
+            "price_small": 200,
+            "price_big": 360
+        },
+        {
+            "name": "Leghorn",
+            "image_small": "https://www.mcmurrayhatchery.com/images/global/th/thumb_large_popup_2312.jpg",
+            "image_big": "https://g-dfarms.com/cdn/shop/products/04DC79C0-B0E0-415D-9846-E416D54FB850_580x.jpg?v=1649254223",
+            "description": "Excellent egg-laying breed.",
+            "price": 270,
+            "price_small": 160,
+            "price_big": 300
+        }
+    ]
+}

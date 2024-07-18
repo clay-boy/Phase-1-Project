@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poultry Farm App</title>
+    <link rel="stylesheet" href="CSS/Styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Poultry Farm</h1>
+    </header>
+    <main>
+      <section id="chicken-cards" class="chicken-cards">
+        <!-- Chicken cards will be dynamically inserted here -->
+      </section>
+      <section>
+        <h2>Select Chicken Species</h2>
+        <select id="species-select">
+          <option value="">Select a species</option>
+        </select>
+        <div id="chicken-info" class="chicken-info">
+          <!-- Selected chicken details will be displayed here -->
+        </div>
+      </section>
+      <section>
+        <h2>Place an Order</h2>
+        <form id="order-form">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" min="1" required />
+          <label for="date">Pick-up Date:</label>
+          <input type="date" id="date" required />
+          <button type="submit">Place Order</button>
+        </form>
+        <div id="order-summary" class="order-summary">
+          <!-- Order summary will be displayed here -->
+        </div>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>
