@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const get_API = 'https://backend-project-steel-chi.vercel.app/species';
+
     const speciesSelect = document.getElementById('species-select');
     const chickenInfo = document.getElementById('chicken-info');
     const orderForm = document.getElementById('order-form');
     const orderSummary = document.getElementById('order-summary');
     const chickenCards = document.getElementById('chicken-cards');
-    const get_API = 'db.json';
     let chickensData;
 
     fetch(get_API)
@@ -15,10 +16,10 @@ document.addEventListener('DOMContentLoaded', function () {
             return response.json();
         })
         .then(data => {
-            chickensData = data.species;
-            populateSpeciesDropdown(chickensData);
-            displayChickenCards(chickensData);
+            populateSpeciesDropdown(data);
+            displayChickenCards(data);
             setupEventListeners();
+
         })
         .catch(error => {
             console.error('Error fetching chickens data:', error);
