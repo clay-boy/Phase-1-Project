@@ -68,7 +68,7 @@ The `db.json` file contains information about various chickens species like:
  5. SUBMIT A PULL REQUEST
 
  ## Issue
- If you encounter any issues or bugs, please report them using the [Issues](https://github.com/plug-keith/MY-potfolia) section of the repository.
+ If you encounter any issues or bugs, please report them using the [Issues](https://github.com/plug-keith/Phase-1-Project?tab=readme-ov-file) section of the repository.
 
 ## Contact
 For any inquires or support, please contact:
