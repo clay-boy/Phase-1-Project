@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const chickenCards = document.getElementById('chicken-cards');
     let chickensData;
 
+    //fetch the chicken data from api
     fetch(get_API)
         .then(response => {
             if (!response.ok) {
@@ -16,9 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
             return response.json();
         })
         .then(data => {
+            chickensData = data; //assign the fetched data to chikens 
             populateSpeciesDropdown(data);
             displayChickenCards(data);
-            setupEventListeners();
+            setupEventListeners(); // Setup event listeners
 
         })
         .catch(error => {
